@@ -35,7 +35,7 @@ with st.form(key='form1', clear_on_submit=True):
     firstname= st.text_input("Enter your First Name:")
     Lastname=  st.text_input("Enter your Last Name:")
     Emailaddress = st.text_input("Enter your Email Address:")
-    Mobileno= st.number_input("Enter your Mobile number")
+    Mobileno= st.text_input("Enter your Mobile number")
    
    
                                                      
